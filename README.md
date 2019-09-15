@@ -1,2 +1,1 @@
-"# znakomstvo-s-git-i-lisp-JuicyColt" 
-"# znakomstvo-s-git-i-lisp-JuicyColt" 
+"Лабораторная работа №1. Знакомство с git и lisp."
