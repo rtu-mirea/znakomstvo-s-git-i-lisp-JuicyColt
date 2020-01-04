@@ -1,22 +1,5 @@
-(setf l (list (list 5 6 7) 6 (list 2 3 4) (car (list 1 2 3)) (list 1 3 1 4)))
-;((5 6 7) 6 (2 3 4) 1 (1 3 1 4))
-
-;1. 3 список целиком  
-
-(caddr l )
-;(2 3 4)
-
-;2. 2й элемент 5го списка
-
-(cadr (car (cddddr l)))
-;3
-
-;3. сумму 2 и 4 списка
-
-(+ (nth 1 l)(nth 3 l))
-;7
-
-;4. 3й элемент 1 списка
-
-(cddr (car l))
-;(7)
+(defconstant l (list (list 5 6 7) 6 (list 2 3 4) (car (list 1 2 3)) (list 1 3 1 4)))
+(nth 2 l)
+(nth 1(nth 4 l))
+(+(nth 1 l)(nth 3 l))
+(nth 2(nth 0 l))
